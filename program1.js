@@ -20,7 +20,7 @@ var isValid = function(s) {
             } else if (s[i] === ']' && LSymbol.length !== 0 && LSymbol[LSymbol.length - 1] === '[') {
                 LSymbol.pop();
             }
-
+            // if no bracket so retune false
             else {
                 return false;
             }
