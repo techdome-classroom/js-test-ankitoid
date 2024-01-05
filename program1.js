@@ -11,6 +11,7 @@ var isValid = function(s) {
                 // storing brackets to the stack 
                 LSymbol.push(s[i]);
             }
+            // cheacking the condition of 
 
             else if (s[i] === ')' && LSymbol.length !== 0 && LSymbol[LSymbol.length - 1] === '(') {
                 LSymbol.pop();
